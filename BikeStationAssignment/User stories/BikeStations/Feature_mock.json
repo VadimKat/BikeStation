@@ -1,0 +1,18 @@
+{
+    "geometry": {
+        "coordinates": [
+            16.946361,
+            52.436487
+        ],
+        "type": "Point"
+    },
+    "id": "15616",
+    "type": "Feature",
+    "properties": {
+        "free_racks": "0",
+        "bikes": "4",
+        "label": "Włodarska",
+        "bike_racks": "0",
+        "updated": "2022-06-18 13:48"
+    }
+}

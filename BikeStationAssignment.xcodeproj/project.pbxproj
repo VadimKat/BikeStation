@@ -8,17 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		52FEF52D285DEA86002D02E6 /* BikeStationAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF52C285DEA86002D02E6 /* BikeStationAssignmentApp.swift */; };
-		52FEF52F285DEA86002D02E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF52E285DEA86002D02E6 /* ContentView.swift */; };
 		52FEF531285DEA87002D02E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FEF530285DEA87002D02E6 /* Assets.xcassets */; };
 		52FEF534285DEA87002D02E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FEF533285DEA87002D02E6 /* Preview Assets.xcassets */; };
+		52FEF53B285DEE4C002D02E6 /* BikeStationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF53A285DEE4C002D02E6 /* BikeStationListView.swift */; };
+		52FEF544285DEEE3002D02E6 /* BikeStationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF543285DEEE3002D02E6 /* BikeStationListViewModel.swift */; };
+		52FEF54A285DEF7D002D02E6 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF549285DEF7D002D02E6 /* View+Extensions.swift */; };
+		52FEF54D285DF013002D02E6 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF54C285DF013002D02E6 /* CustomNavigationBar.swift */; };
+		52FEF54F285DF0F5002D02E6 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF54E285DF0F5002D02E6 /* UIDevice+Extensions.swift */; };
+		52FEF551285DF418002D02E6 /* BikeStationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF550285DF418002D02E6 /* BikeStationListModel.swift */; };
+		52FEF556285DFEE8002D02E6 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF555285DFEE8002D02E6 /* Foundation+Extensions.swift */; };
+		52FEF558285DFF73002D02E6 /* BikeStationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF557285DFF73002D02E6 /* BikeStationCell.swift */; };
+		52FEF559285E0030002D02E6 /* Feature_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 52FEF552285DFE96002D02E6 /* Feature_mock.json */; };
+		52FEF55C285E05AF002D02E6 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF55B285E05AF002D02E6 /* Color+Extensions.swift */; };
+		52FEF55F285E0D02002D02E6 /* Combine+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF55E285E0D02002D02E6 /* Combine+Extensions.swift */; };
+		52FEF566285E11B5002D02E6 /* StationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF565285E11B5002D02E6 /* StationDetailsView.swift */; };
+		52FEF568285E11C0002D02E6 /* StationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF567285E11C0002D02E6 /* StationDetailsViewModel.swift */; };
+		52FEF56E285EF1C1002D02E6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF56D285EF1C1002D02E6 /* LocationManager.swift */; };
+		52FEF571285EFECE002D02E6 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF570285EFECE002D02E6 /* ActivityIndicator.swift */; };
+		52FEF573285EFEF3002D02E6 /* ActivityIndicatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF572285EFEF3002D02E6 /* ActivityIndicatorModifier.swift */; };
+		52FEF577285F0295002D02E6 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF576285F0295002D02E6 /* CLLocation+Extensions.swift */; };
+		52FEF579285F05CA002D02E6 /* CLLocationCoordinate2D+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEF578285F05CA002D02E6 /* CLLocationCoordinate2D+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52FEF529285DEA86002D02E6 /* BikeStationAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeStationAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FEF52C285DEA86002D02E6 /* BikeStationAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationAssignmentApp.swift; sourceTree = "<group>"; };
-		52FEF52E285DEA86002D02E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52FEF530285DEA87002D02E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FEF533285DEA87002D02E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52FEF53A285DEE4C002D02E6 /* BikeStationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListView.swift; sourceTree = "<group>"; };
+		52FEF543285DEEE3002D02E6 /* BikeStationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListViewModel.swift; sourceTree = "<group>"; };
+		52FEF549285DEF7D002D02E6 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		52FEF54C285DF013002D02E6 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		52FEF54E285DF0F5002D02E6 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		52FEF550285DF418002D02E6 /* BikeStationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListModel.swift; sourceTree = "<group>"; };
+		52FEF552285DFE96002D02E6 /* Feature_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Feature_mock.json; sourceTree = "<group>"; };
+		52FEF555285DFEE8002D02E6 /* Foundation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
+		52FEF557285DFF73002D02E6 /* BikeStationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationCell.swift; sourceTree = "<group>"; };
+		52FEF55B285E05AF002D02E6 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		52FEF55E285E0D02002D02E6 /* Combine+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+Extensions.swift"; sourceTree = "<group>"; };
+		52FEF560285E0F2C002D02E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52FEF565285E11B5002D02E6 /* StationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsView.swift; sourceTree = "<group>"; };
+		52FEF567285E11C0002D02E6 /* StationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsViewModel.swift; sourceTree = "<group>"; };
+		52FEF56D285EF1C1002D02E6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		52FEF570285EFECE002D02E6 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		52FEF572285EFEF3002D02E6 /* ActivityIndicatorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorModifier.swift; sourceTree = "<group>"; };
+		52FEF576285F0295002D02E6 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		52FEF578285F05CA002D02E6 /* CLLocationCoordinate2D+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +86,11 @@
 		52FEF52B285DEA86002D02E6 /* BikeStationAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				52FEF52C285DEA86002D02E6 /* BikeStationAssignmentApp.swift */,
-				52FEF52E285DEA86002D02E6 /* ContentView.swift */,
-				52FEF530285DEA87002D02E6 /* Assets.xcassets */,
+				52FEF560285E0F2C002D02E6 /* Info.plist */,
+				52FEF53C285DEE5A002D02E6 /* Main */,
+				52FEF56C285EF1B2002D02E6 /* Services */,
+				52FEF545285DEF22002D02E6 /* Library */,
+				52FEF53D285DEE5F002D02E6 /* User stories */,
 				52FEF532285DEA87002D02E6 /* Preview Content */,
 			);
 			path = BikeStationAssignment;
@@ -65,6 +102,142 @@
 				52FEF533285DEA87002D02E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52FEF53C285DEE5A002D02E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF52C285DEA86002D02E6 /* BikeStationAssignmentApp.swift */,
+				52FEF530285DEA87002D02E6 /* Assets.xcassets */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52FEF53D285DEE5F002D02E6 /* User stories */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF53E285DEE83002D02E6 /* BikeStations */,
+				52FEF542285DEEA4002D02E6 /* StationDetails */,
+			);
+			path = "User stories";
+			sourceTree = "<group>";
+		};
+		52FEF53E285DEE83002D02E6 /* BikeStations */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF541285DEE99002D02E6 /* Model */,
+				52FEF540285DEE95002D02E6 /* View */,
+				52FEF53F285DEE8F002D02E6 /* ViewModel */,
+			);
+			path = BikeStations;
+			sourceTree = "<group>";
+		};
+		52FEF53F285DEE8F002D02E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF543285DEEE3002D02E6 /* BikeStationListViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		52FEF540285DEE95002D02E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF53A285DEE4C002D02E6 /* BikeStationListView.swift */,
+				52FEF557285DFF73002D02E6 /* BikeStationCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52FEF541285DEE99002D02E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF550285DF418002D02E6 /* BikeStationListModel.swift */,
+				52FEF552285DFE96002D02E6 /* Feature_mock.json */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52FEF542285DEEA4002D02E6 /* StationDetails */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF564285E1199002D02E6 /* View */,
+				52FEF563285E1193002D02E6 /* ViewModel */,
+			);
+			path = StationDetails;
+			sourceTree = "<group>";
+		};
+		52FEF545285DEF22002D02E6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF574285EFF10002D02E6 /* Modifiers */,
+				52FEF54B285DF001002D02E6 /* ReusableViews */,
+				52FEF548285DEF43002D02E6 /* Extensions */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		52FEF548285DEF43002D02E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF549285DEF7D002D02E6 /* View+Extensions.swift */,
+				52FEF555285DFEE8002D02E6 /* Foundation+Extensions.swift */,
+				52FEF54E285DF0F5002D02E6 /* UIDevice+Extensions.swift */,
+				52FEF55B285E05AF002D02E6 /* Color+Extensions.swift */,
+				52FEF55E285E0D02002D02E6 /* Combine+Extensions.swift */,
+				52FEF576285F0295002D02E6 /* CLLocation+Extensions.swift */,
+				52FEF578285F05CA002D02E6 /* CLLocationCoordinate2D+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52FEF54B285DF001002D02E6 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF54C285DF013002D02E6 /* CustomNavigationBar.swift */,
+				52FEF570285EFECE002D02E6 /* ActivityIndicator.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		52FEF563285E1193002D02E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF567285E11C0002D02E6 /* StationDetailsViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		52FEF564285E1199002D02E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF565285E11B5002D02E6 /* StationDetailsView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52FEF56C285EF1B2002D02E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF56F285EF1C5002D02E6 /* LocationManager */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52FEF56F285EF1C5002D02E6 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF56D285EF1C1002D02E6 /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		52FEF574285EFF10002D02E6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				52FEF572285EFEF3002D02E6 /* ActivityIndicatorModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FEF534285DEA87002D02E6 /* Preview Assets.xcassets in Resources */,
+				52FEF559285E0030002D02E6 /* Feature_mock.json in Resources */,
 				52FEF531285DEA87002D02E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +311,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FEF52F285DEA86002D02E6 /* ContentView.swift in Sources */,
+				52FEF556285DFEE8002D02E6 /* Foundation+Extensions.swift in Sources */,
+				52FEF579285F05CA002D02E6 /* CLLocationCoordinate2D+Extensions.swift in Sources */,
+				52FEF571285EFECE002D02E6 /* ActivityIndicator.swift in Sources */,
+				52FEF53B285DEE4C002D02E6 /* BikeStationListView.swift in Sources */,
+				52FEF573285EFEF3002D02E6 /* ActivityIndicatorModifier.swift in Sources */,
+				52FEF566285E11B5002D02E6 /* StationDetailsView.swift in Sources */,
 				52FEF52D285DEA86002D02E6 /* BikeStationAssignmentApp.swift in Sources */,
+				52FEF577285F0295002D02E6 /* CLLocation+Extensions.swift in Sources */,
+				52FEF54A285DEF7D002D02E6 /* View+Extensions.swift in Sources */,
+				52FEF558285DFF73002D02E6 /* BikeStationCell.swift in Sources */,
+				52FEF55C285E05AF002D02E6 /* Color+Extensions.swift in Sources */,
+				52FEF568285E11C0002D02E6 /* StationDetailsViewModel.swift in Sources */,
+				52FEF55F285E0D02002D02E6 /* Combine+Extensions.swift in Sources */,
+				52FEF544285DEEE3002D02E6 /* BikeStationListViewModel.swift in Sources */,
+				52FEF56E285EF1C1002D02E6 /* LocationManager.swift in Sources */,
+				52FEF54D285DF013002D02E6 /* CustomNavigationBar.swift in Sources */,
+				52FEF551285DF418002D02E6 /* BikeStationListModel.swift in Sources */,
+				52FEF54F285DF0F5002D02E6 /* UIDevice+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,6 +460,9 @@
 				DEVELOPMENT_TEAM = D83JQSBRML;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BikeStationAssignment/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"$(PRODUCT_NAME) needs yor location to help you find bike station\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"$(PRODUCT_NAME) needs yor location to help you find bike station\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +492,9 @@
 				DEVELOPMENT_TEAM = D83JQSBRML;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BikeStationAssignment/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"$(PRODUCT_NAME) needs yor location to help you find bike station\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"$(PRODUCT_NAME) needs yor location to help you find bike station\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
